@@ -6,15 +6,15 @@ This program will take the equations found during a mesh analysis of a simple ci
 Input Analysis
 -----
 The input will be taken from the console. The input will consist of the the type of circuit (DC or AC), the total number of loops, and the equations for each loop. This input will be formatted in the following way:
-- circuitType
-- ComplexType (If circuitType = "AC")
+- isAC
+- isPolar (If isAC)
 - totalLoops
 - mesh[n]
 
 The ranges for the input values are as follows:
-- circuitType :"DC" or "AC"
-- complexType :"Polar" or "Rect"
-- totalLoops  :1-5
+- isAC 			:true or false
+- isPolar		:true or false
+- totalLoops  	:1-5
 
 The following is sample input for the program. The double slashes and text after it serves as a description of each line, and is not included in the input.
 
